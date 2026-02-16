@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 80px;
+    padding: 0 30px;
+    font-family: var(--font-primary-01);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0 30px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+#logo-optimus-img {
+    width: 27px;
+    height: 27px;
+}
+
+#logo-optimus-p {
+    font-size: 18px;
+    color: var(--color-primary-02);
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-item > a{
+    color: var(--color-primary-03);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav-actions > a {
+    color: var(--color-primary-03);
+}
