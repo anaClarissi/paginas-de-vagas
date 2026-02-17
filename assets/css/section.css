@@ -1,0 +1,31 @@
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 96px;
+}
+
+#sobre > span {
+    color: var(--color-primary-01);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#sobre > h1 {
+    color: var(--color-primary-04);
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -2%;
+}
+
+#sobre > p {
+    color: var(--color-primary-03);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    align-content: center;
+    width: 47%;
+    text-align: center;
+    padding: 12px;
+}
