@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--color-primary-07);
+    padding: 90px;
+}
+
+footer > h2 {
+    font-size: 2.2em;
+    letter-spacing: -2%;
+    color: var(--color-primary-04);
+}
+
+footer > p {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: var(--color-primary-03);
+}
+
+#email {
+    width: 500px;
+    height: 45px;
+    background-color: white;
+    padding: 12px 14px 12px 14px;
+    border: 1px solid var(--color-primary-08);
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+#direitos-recervados {
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--color-primary-08);
+}
