@@ -5,6 +5,8 @@
     --color-primary-02: #3A404E;
     --color-primary-03: #667085;
     --color-primary-04: #101828;
+    --color-primary-05: #f9f4f4;
+    --color-primary-06: #EAECF0;
 
     --font-primary-01: 'Inter', sans-serif;
 }
@@ -20,8 +22,13 @@ html {
     scroll-behavior: smooth;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 a {
-    color: black;
+    color: var(--color-primary-04);
     text-decoration: none;
 }
 
