@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --color-primary-01: #8E2424;
+    --color-primary-02: #3A404E;
+    --color-primary-03: #667085;
+    --color-primary-04: #101828;
+    --color-primary-05: #f9f4f4;
+    --color-primary-06: #EAECF0;
+    --color-primary-07: #F9FAFB;
+    --color-primary-08: #98A2B3;
+
+    --font-primary-01: 'Inter', sans-serif;
+}
+
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary-01);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: var(--color-primary-04);
+    text-decoration: none;
+}
+
+.button {
+    width: 112px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 18px;
+    background-color: var(--color-primary-01);
+    color: #ffffff;
+    font-family: var(--font-primary-01);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/* HEADER */
+
+#header {
+    width: 100%;
+    padding: 0.35rem 4rem;
+    font-family: var(--font-primary-01);
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#logo-optimus-img {
+    width: 27px;
+    height: 27px;
+}
+
+#logo-optimus-p {
+    font-size: 18px;
+    color: var(--color-primary-02);
+    margin: 0;
+}
+
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    width: 100%;
+}
+
+.nav-link{
+    color: var(--color-primary-03);
+    transition: all .2s ease;
+}
+.nav-link:hover {
+    color: var(--color-primary-01);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-actions > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary-03);
+    width: 112px;
+    height: 45px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.nav-actions > a:hover {
+    color: #ffffff;
+    background-color: var(--color-primary-03);
+}
+
+.nav-actions > button {
+    transition: all .3s ease;
+}
+
+.nav-actions > button:hover {
+    background-color: var(--color-primary-03);
+}
+
+.navbar-collapse {
+    flex-grow: 1;
+}
+
+
+@media (max-width: 991px) {
+
+    .nav-actions {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--color-primary-07);
+    padding: 90px;
+}
+
+footer > h2 {
+    font-size: 2.2em;
+    letter-spacing: -2%;
+    color: var(--color-primary-04);
+}
+
+footer > p {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: var(--color-primary-03);
+}
+
+#email {
+    width: 500px;
+    height: 45px;
+    background-color: white;
+    padding: 12px 14px 12px 14px;
+    border: 1px solid var(--color-primary-08);
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+#direitos-recervados {
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--color-primary-08);
+}
